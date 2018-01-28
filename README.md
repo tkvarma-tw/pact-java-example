@@ -4,12 +4,12 @@ Simple example project that uses pacts with Java.
 
 There are 2 sub projects:
 1. provider - A rest service with a hello world endpoint.
-2. consumer - A consumer of the hellow world endpoint
+2. consumer - A consumer of the hello world endpoint
 
 With this project you will be able to
 1. Create a pact using the consumer
 2. Publish it to a pact broker
-3. Verify that the provider fullfills the pact
+3. Verify that the provider fulfills the pact
 
 
 ## Steps
