@@ -12,9 +12,9 @@ services:
       POSTGRES_DB: postgres
 
   broker_app:
-    image: dius/pact-broker:2.13.1-1
+    image: dius/pact-broker:latest
     ports:
-      - "80:80"
+      - "8082:80"
     links:
       - postgres
     environment:

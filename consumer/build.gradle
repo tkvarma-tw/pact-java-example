@@ -1,5 +1,5 @@
 plugins {
-    id 'au.com.dius.pact' version '3.5.12'
+    id 'au.com.dius.pact' version '3.5.19'
 }
 
 dependencies {
@@ -9,11 +9,11 @@ dependencies {
             'org.apache.commons:commons-collections4:4.0'
 }
 
-pactPublish.dependsOn test
+//pactPublish.dependsOn test
 pact {
     publish {
         pactDirectory = "$buildDir/pacts"
-        pactBrokerUrl = 'http://localhost:80'
+        pactBrokerUrl = 'http://localhost:8082'
         tags = ['INTEGRATION']
     }
 }
