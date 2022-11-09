@@ -1,6 +1,6 @@
 # Java Pact Example
 
-Simple example project that uses pacts with Java.
+Simple example project that uses pacts with Java (Java 11).
 
 There are 2 sub projects:
 1. provider - A rest service with a hello world endpoint.
